@@ -14,7 +14,7 @@ sudo apt-get install portaudio19-dev libffi-dev libssl-dev
 python -m pip install --upgrade google-auth-oauthlib[tool]
 
 echo "progress oAuth"
-google-oauthlib-tool --client-secrets /home/linaro/client_secret_XXXXXX.apps.googleusercontent.com.json --scope https://www.googleapis.com/auth/assistant-sdk-prototype --save --headless
+google-oauthlib-tool --client-secrets /home/linaro/client_secret_8624439277-crrm3499kcui4pkr7pgccda5pjc985a7.apps.googleusercontent.com.json --scope https://www.googleapis.com/auth/assistant-sdk-prototype --save --headless
 
 
 echo "Install gRPC and download Google Assistant"
